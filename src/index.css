@@ -21,7 +21,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
 body {
   @apply bg-gotham text-white
 }
@@ -58,8 +57,12 @@ p {
   @apply px-1 border border-white w-fit
 }
 
-.typing-h1 {
+.typing {
   @apply w-fit overflow-hidden whitespace-nowrap font-bold animate-typing border-r-4 md:border-r-8 lg:border-r-16 border-r-white
+}
+
+.typing-no-blink {
+  @apply w-fit overflow-hidden whitespace-nowrap font-bold animate-typing-no-blink
 }
 
 .spacing-y {
@@ -68,4 +71,48 @@ p {
 
 .divider {
   @apply spacing-y animate-divider-reveal w-full h-px bg-white overflow-hidden whitespace-nowrap
+}
+
+.section-header {
+  @apply typing-no-blink mb-10
+}
+
+.skill-header {
+  @apply mb-2 text-white animate-come-left
+}
+
+.skill-desc {
+  @apply animate-come-right
+}
+
+.project-title {
+  @apply mt-5 mb-2 text-white animate-come-left
+}
+
+.project-desc {
+  @apply animate-come-right
+}
+
+.project-image {
+  @apply grayscale-70
+}
+
+.achievement-title {
+  @apply mt-5 mb-2 text-white animate-come-left
+}
+
+.achievement-desc {
+  @apply w-full xl:w-2/3 animate-come-right
+}
+
+.contact-title {
+  @apply mt-5 mb-2 text-white animate-come-left
+}
+
+.contact-desc {
+  @apply animate-come-up
+}
+
+.footer {
+  @apply pt-40 pb-20
 }

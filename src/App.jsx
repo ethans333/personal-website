@@ -5,6 +5,7 @@ import Skills from "./Components/Sections/Skills";
 import Projects from "./Components/Sections/Projects";
 import Achievements from "./Components/Sections/Achievements";
 import Contact from "./Components/Sections/Contact";
+import Footer from "./Components/Footer";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
       <div className="pl-10 pr-10 w-full xl:flex xl:items-center xl:justify-center">
         <div className="spacing-y xl:w-2/3">
           <div className="mb-64 xl:mb-96">
-            <h1 class="typing-h1">Welcome Employers;</h1>
+            <h1 class="typing">Welcome Employers;</h1>
           </div>
           <Divider />
           <About />
@@ -25,6 +26,7 @@ export default function App() {
           <Achievements />
           <Divider />
           <Contact />
+          <Footer />
         </div>
       </div>
     </div>
