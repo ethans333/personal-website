@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   assetsInclude: ["**/*.JPEG/*.otf", "**/*.PNG"],
   plugins: [react()],
+  base:"personal-website"
 })
