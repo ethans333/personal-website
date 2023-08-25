@@ -1,0 +1,71 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Alliance1';
+  src: url("./assets/fonts/Alliance1.otf");
+}
+
+@font-face {
+  font-family: 'Alliance2';
+  src: url("./assets/fonts/Alliance2.otf");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+body {
+  @apply bg-gotham text-white
+}
+
+h1 {
+  @apply font-primary text-3xl md:text-4xl lg:text-6xl
+}
+
+h2 {
+  @apply font-primary sm:text-xl md:text-2xl lg:text-4xl
+}
+
+h3 {
+  @apply font-primary sm:text-lg md:text-xl lg:text-2xl
+}
+
+p {
+  @apply font-secondary text-dirt
+}
+
+.navbar {
+  @apply mt-5 ml-5
+}
+
+.navbar-item {
+  @apply mr-5
+}
+
+.center {
+  @apply flex h-screen items-center justify-center
+}
+
+.white-box {
+  @apply px-1 border border-white w-fit
+}
+
+.typing-h1 {
+  @apply w-fit overflow-hidden whitespace-nowrap font-bold animate-typing border-r-4 md:border-r-8 lg:border-r-16 border-r-white
+}
+
+.spacing-y {
+  @apply mt-20 lg:mt-40 mb-5
+}
+
+.divider {
+  @apply spacing-y animate-divider-reveal w-full h-px bg-white overflow-hidden whitespace-nowrap
+}
