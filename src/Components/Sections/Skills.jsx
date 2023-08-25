@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <div>
       <h3 className="section-header">Skills</h3>
-      <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
         <div>
           <p className="skill-header">JavaScript.</p>
           <p className="skill-desc">

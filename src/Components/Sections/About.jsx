@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h3 className="section-header">About</h3>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         <p className="animate-come-down">
           'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
