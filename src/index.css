@@ -46,7 +46,7 @@ p {
 }
 
 .navbar-item {
-  @apply mr-5 hover:cursor-pointer
+  @apply mr-auto md:mr-5 hover:cursor-pointer
 }
 
 .center {
