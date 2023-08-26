@@ -16,15 +16,15 @@ export default function App() {
           <div className="mb-64 xl:mb-96">
             <h1 class="typing">Welcome Employers;</h1>
           </div>
-          <Divider />
+          <Divider id="about" />
           <About />
-          <Divider />
+          <Divider id="skills" />
           <Skills />
-          <Divider />
+          <Divider id="projects" />
           <Projects />
-          <Divider />
+          <Divider id="achievements" />
           <Achievements />
-          <Divider />
+          <Divider id="contact" />
           <Contact />
           <Footer />
         </div>

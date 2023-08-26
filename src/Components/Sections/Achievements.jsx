@@ -1,30 +1,26 @@
 export default function Achievements() {
   return (
-    <div id="achievements">
+    <div>
       <h3 className="section-header">Achievements</h3>
-      <div>
-        <p className="achievement-title">Achievement A</p>
-        <p className="achievement-desc">
-          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur '
-        </p>
-      </div>
-      <div>
-        <p className="achievement-title">Achievement B</p>
-        <p className="achievement-desc">
-          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur '
-        </p>
-      </div>
-      <div>
-        <p className="achievement-title">Achievement C</p>
-        <p className="achievement-desc">
-          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur '
-        </p>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div>
+          <p className="achievement-title">Eagle Scout Rank</p>
+          <p className="achievement-desc">
+            The Eagle Scout rank is the highest attainable achievement in the
+            Boy Scouts of America program, awarded to those who have
+            demonstrated exceptional leadership, character, and service through
+            the completion of a challenging set of requirements and projects.
+          </p>
+        </div>
+        <div>
+          <p className="achievement-title">Phi Theta Kappa Honors Society</p>
+          <p className="achievement-desc">
+            As a member of the Phi Theta Kappa Honors Society, I'm excited to
+            share that this significant achievement represents my dedication to
+            academic excellence, leadership development, and community service
+            throughout my college career.
+          </p>
+        </div>
       </div>
     </div>
   );

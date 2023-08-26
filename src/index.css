@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-  @apply font-primary sm:text-lg md:text-xl lg:text-2xl
+  @apply font-primary text-xl lg:text-2xl
 }
 
 p {
@@ -94,7 +94,7 @@ p {
 }
 
 .project-image {
-  @apply grayscale-70
+  @apply bg-dirt
 }
 
 .achievement-title {
@@ -111,6 +111,14 @@ p {
 
 .contact-desc {
   @apply transform-gpu animate-come-up
+}
+
+.contact-icon {
+  @apply w-5 ml-1.5 mt-3.5 opacity-80 cursor-pointer
+}
+
+.contact-link {
+  @apply pt-2.5 transform-gpu animate-come-down
 }
 
 .footer {

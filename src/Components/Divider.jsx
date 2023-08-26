@@ -1,3 +1,3 @@
-export default function Divider() {
-  return <div className="divider"></div>;
+export default function Divider({ id }) {
+  return <div id={id} className="divider"></div>;
 }

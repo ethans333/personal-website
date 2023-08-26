@@ -2,21 +2,21 @@ import MeImage from "../../assets/Images/Myself-Formal.PNG";
 
 export default function About() {
   return (
-    <div id="about">
+    <div>
       <h3 className="section-header">About</h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         <p className="animate-come-down">
-          'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur '
+          Computer Science Major with a deep intrigue in learning the wide
+          variety of concepts within software, data and machine learning.
+          Actively seeking additional oppertunities to further pursue study in
+          these fields and gain professional, real world experience.
         </p>
         <p className="animate-come-up">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim. Donec pede justo, fringilla vel, aliquet
-          nec, vulputate eget, arcu.
+          I have designed this website with the intention of sharing my
+          extensive experience and capabilities. Here, you'll discover insights
+          into the programming languages I've mastered and explore some of the
+          projects I've contributed to in the past. Feel free to contact me for
+          any business inquiries or with any general questions you may have.
         </p>
         <div className="flex justify-center animate-blur-focus">
           <img
