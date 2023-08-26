@@ -1,6 +1,6 @@
 export default function Achievements() {
   return (
-    <div>
+    <div id="achievements">
       <h3 className="section-header">Achievements</h3>
       <div>
         <p className="achievement-title">Achievement A</p>

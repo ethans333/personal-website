@@ -46,7 +46,7 @@ p {
 }
 
 .navbar-item {
-  @apply mr-5
+  @apply mr-5 hover:cursor-pointer
 }
 
 .center {
@@ -58,11 +58,11 @@ p {
 }
 
 .typing {
-  @apply w-fit overflow-hidden whitespace-nowrap font-bold animate-typing border-r-4 md:border-r-8 lg:border-r-16 border-r-white
+  @apply w-fit pr-2 overflow-hidden whitespace-nowrap font-bold transform-gpu animate-typing border-r-4 md:border-r-8 lg:border-r-16 border-r-white
 }
 
 .typing-no-blink {
-  @apply w-fit overflow-hidden whitespace-nowrap font-bold animate-typing-no-blink
+  @apply w-fit overflow-hidden whitespace-nowrap font-bold transform-gpu animate-typing-no-blink
 }
 
 .spacing-y {
@@ -70,7 +70,7 @@ p {
 }
 
 .divider {
-  @apply spacing-y animate-divider-reveal w-full h-px bg-white overflow-hidden whitespace-nowrap
+  @apply spacing-y transform-gpu animate-divider-reveal w-full h-px bg-white overflow-hidden whitespace-nowrap
 }
 
 .section-header {
@@ -78,11 +78,11 @@ p {
 }
 
 .skill-header {
-  @apply mb-2 text-white animate-come-left
+  @apply mb-2 text-white transform-gpu animate-come-left
 }
 
 .skill-desc {
-  @apply animate-come-right
+  @apply transform-gpu animate-come-right
 }
 
 .project-title {
@@ -90,7 +90,7 @@ p {
 }
 
 .project-desc {
-  @apply animate-come-right
+  @apply transform-gpu animate-come-right
 }
 
 .project-image {
@@ -98,19 +98,19 @@ p {
 }
 
 .achievement-title {
-  @apply mt-5 mb-2 text-white animate-come-left
+  @apply mt-5 mb-2 text-white transform-gpu animate-come-left
 }
 
 .achievement-desc {
-  @apply w-full xl:w-2/3 animate-come-right
+  @apply w-full xl:w-2/3 transform-gpu animate-come-right
 }
 
 .contact-title {
-  @apply mt-5 mb-2 text-white animate-come-left
+  @apply mt-5 mb-2 text-white transform-gpu animate-come-left
 }
 
 .contact-desc {
-  @apply animate-come-up
+  @apply transform-gpu animate-come-up
 }
 
 .footer {

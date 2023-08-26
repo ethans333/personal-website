@@ -2,7 +2,7 @@ import ProjectImageDefault from "../../assets/Images/Project_Image_Default.jpg";
 
 export default function Projects() {
   return (
-    <div>
+    <div id="projects">
       <h3 className="section-header">Projects</h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         <div>

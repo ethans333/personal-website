@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <div id="contact">
       <h3 className="section-header">Contact</h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         <div>

@@ -2,7 +2,7 @@ import MeImage from "../../assets/Images/Myself-Formal.PNG";
 
 export default function About() {
   return (
-    <div>
+    <div id="about">
       <h3 className="section-header">About</h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         <p className="animate-come-down">
