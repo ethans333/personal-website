@@ -27,9 +27,12 @@ export default function Projects() {
             </a>
           </div>
           <p className="project-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur '
+            The Two Four Tree project was a class written in Java implementing a
+            Two Four Tree data structure. The project was a school assignment
+            assigned for my Computer Science 2 class. The difficult of
+            implementing this data structure rested in the sheer amount of
+            boolean conditions needed for implementing all of its
+            functionalities.
           </p>
         </div>
         {/* Neural Network From Scratch */}
@@ -48,9 +51,12 @@ export default function Projects() {
             </a>
           </div>
           <p className="project-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur '
+            The Neural Network From Scratch project is exactly what it sounds
+            like, a neural network written in python from scratch. This project
+            was implemented with the purpose to further broaden my skills in the
+            area of machine learning and AI. I wanted to understand not just how
+            to use them but how they worked under the hood, what math and code
+            is utilized in order to implement these models.
           </p>
         </div>
         {/* Pizza Cat */}
@@ -69,9 +75,12 @@ export default function Projects() {
             </a>
           </div>
           <p className="project-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur '
+            Is it a Pizza or is it a Cat? I don't know lets let a Random Forest
+            Classifier decide. This project involves the user drawing one of two
+            images, a Pizza or a Cat and has a model classify it as one or the
+            other. I created this project in order to boraden my skills in the
+            subject of AI and machine learning as well as see how I can compile
+            and implement the models into a webpage.
           </p>
         </div>
         {/* Soundcloud Terminal */}
@@ -90,9 +99,12 @@ export default function Projects() {
             </a>
           </div>
           <p className="project-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur '
+            SoundCloud Terminal allows you to utilize the music streaming
+            service from a terminal interface. Since SoundCloud didn't offer a
+            sufficent API all data was fetch from SoundCloud's website using a
+            JavaScript webscraper API. This project was created years ago and
+            due to SoundCloud changing their HTML tag names, the program is
+            likely no longer functional.
           </p>
         </div>
         {/* Random Dungeon Generator */}
@@ -111,9 +123,19 @@ export default function Projects() {
             </a>
           </div>
           <p className="project-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur '
+            Random Dungeon Generator was a project written in C#. How it works
+            is simple: rooms are generated with a random size while clustered
+            together, they are then pushed apart from each other and then
+            connected via hallways. I created it with the intrigue of learning
+            more about Unity and C#. The algorithm used is roughly based off of{" "}
+            <a
+              href="https://www.gamedeveloper.com/programming/procedural-dungeon-generation-algorithm"
+              target="_blank"
+              className="text-white underline"
+            >
+              this algorithm
+            </a>
+            .
           </p>
         </div>
         {/* Tetris JS */}
@@ -132,9 +154,19 @@ export default function Projects() {
             </a>
           </div>
           <p className="project-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur '
+            Tetris.js implements the famous game Tetris using vanilla
+            Javascript. Rendering for the game was implemented using the HTML
+            canvas element. Creating this game helped further improve my skills
+            of JavaScript. If you want to try it out you can try it{" "}
+            <a
+              href="https://www.gamedeveloper.com/programming/procedural-dungeon-generation-algorithm"
+              target="_blank"
+              className="text-white underline"
+            >
+              here
+            </a>
+            . Although I will warn controls are only supported for keyboard and
+            mouse.
           </p>
         </div>
       </div>

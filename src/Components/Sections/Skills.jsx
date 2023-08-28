@@ -6,69 +6,72 @@ export default function Skills() {
         <div>
           <p className="skill-header">JavaScript.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            My foundational language, with over a decade of experience,
+            JavaScript remains my primary and most proficient choice.
           </p>
         </div>
         <div>
-          <p className="skill-header">Node Js.</p>
+          <p className="skill-header">Node.js.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Complementing my JavaScript expertise, I've delved into Node.js for
+            server-side development.
           </p>
         </div>
         <div>
           <p className="skill-header">React.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Building upon my JavaScript skills, I've rapidly mastered React's
+            dynamic front-end capabilities. My skills are reflected in the web
+            app you're using currently.
           </p>
         </div>
         <div>
           <p className="skill-header">Python.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            I've explored Python for its versatility and ease of use in various
+            projects.
           </p>
         </div>
         <div>
           <p className="skill-header">C.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            I've tackled C for low-level programming and performance-critical
+            tasks.
           </p>
         </div>
         <div>
           <p className="skill-header">AWS SAM.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Proficient in AWS Serverless Application Model (SAM) for efficient
+            cloud deployments.
           </p>
         </div>
         <div>
           <p className="skill-header">Swift.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Swift is my choice for developing iOS applications, allowing me to
+            create seamless user experiences.
           </p>
         </div>
         <div>
           <p className="skill-header">Java.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor.
+            I've harnessed Java's power for various cross-platform applications
+            and services.
           </p>
         </div>
         <div>
           <p className="skill-header">MQL 4 & 5.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            Experienced in MQL 4 & 5 for algorithmic trading strategies and
+            financial markets analysis.
           </p>
         </div>
         <div>
           <p className="skill-header">Haskell.</p>
           <p className="skill-desc">
-            'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
+            I've ventured into Haskell, appreciating its functional programming
+            concepts and expressiveness.
           </p>
         </div>
       </div>
