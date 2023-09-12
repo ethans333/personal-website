@@ -1,4 +1,4 @@
-import MeImage from "../../assets/Images/Myself-Formal.PNG";
+import MeImage from "../../assets/Images/Myself-WOC.jpg";
 
 export default function About() {
   return (
