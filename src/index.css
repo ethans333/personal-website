@@ -124,3 +124,7 @@ p {
 .footer {
   @apply pt-40 pb-20
 }
+
+.workproject-title {
+  @apply mb-2 text-white transform-gpu animate-come-left
+}

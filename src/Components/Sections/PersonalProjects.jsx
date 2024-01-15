@@ -6,10 +6,10 @@ import TetrisJsImage from "../../assets/Images/Projects/tetrisjs.png";
 import PizzaCatImage from "../../assets/Images/Projects/pizzacat.png";
 import RandomDungeonImage from "../../assets/Images/Projects/dungeon.png";
 
-export default function Projects() {
+export default function PersonalProjects() {
   return (
     <div>
-      <h3 className="section-header">Projects</h3>
+      <h3 className="section-header">Personal Projects</h3>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
         {/* Two Four Tree */}
         <div>
