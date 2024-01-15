@@ -14,7 +14,7 @@ export default function App() {
       <div className="pl-10 pr-10 w-full xl:flex xl:items-center xl:justify-center">
         <div className="spacing-y xl:w-2/3">
           <div className="mb-64 xl:mb-96">
-            <h1 class="typing">Welcome Employers;</h1>
+            <h1 class="typing">Welcome Employersss;</h1>
           </div>
           <Divider id="about" />
           <About />
