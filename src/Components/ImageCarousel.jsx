@@ -13,7 +13,7 @@ export default function ImageCarousel({ Images }) {
         src={caret_left}
         onClick={() => setCurrentImage((i) => (i != 0 ? --i : i))}
       />
-      <div className="mx-4 border border-dirt">
+      <div className="mx-1 lg:mx-4 border border-dirt">
         <img src={Images[currentImage]} />
       </div>
       <img
